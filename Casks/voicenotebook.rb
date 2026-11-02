@@ -8,8 +8,8 @@ cask "voicenotebook" do
   homepage "https://github.com/Edyx0/voiceNotebook"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
   depends_on formula: "ffmpeg"
+  depends_on macos: :tahoe
 
   app "voiceNotebook.app"
 end
